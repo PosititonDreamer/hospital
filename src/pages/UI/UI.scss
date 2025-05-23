@@ -1,0 +1,42 @@
+.ui {
+  &__text {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+
+    &--Thin {
+      font-weight: 100;
+    }
+
+    &--ExtraLight {
+      font-weight: 200;
+    }
+
+    &--Light {
+      font-weight: 300;
+    }
+
+    &--Regular {
+      font-weight: 400;
+    }
+
+    &--Medium {
+      font-weight: 500;
+    }
+
+    &--SemiBold {
+      font-weight: 600;
+    }
+
+    &--Bold {
+      font-weight: 700;
+    }
+
+    &--ExtraBold {
+      font-weight: 800;
+    }
+
+    &--Black {
+      font-weight: 900;
+    }
+  }
+}
