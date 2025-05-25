@@ -1,0 +1,21 @@
+.button {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid var(--black);
+  transition: color .3s ease-in-out, background .3s ease-in-out;
+  width: max-content;
+
+  &:hover {
+    background: var(--black);
+    color: var(--white)
+  }
+
+  &--cancel {
+    border-color: var(--red);
+    color: var(--red);
+
+    &:hover {
+      background: var(--red);
+    }
+  }
+}
