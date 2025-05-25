@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: [
       { find: '@', replacement: fileURLToPath(new URL('./src', import.meta.url)) },
+      { find: '@UI', replacement: fileURLToPath(new URL('./src/components/_UIComponents', import.meta.url)) },
     ],
   },
 })
